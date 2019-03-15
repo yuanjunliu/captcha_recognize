@@ -2,23 +2,212 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="daed92bc-021e-4331-be5b-30fa3868e378" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.git.ignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captcha_gen_default.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha_gen_default.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captcha_multi_gpu_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha_multi_gpu_train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captcha_recognize.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha_recognize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/captcha_records.py" beforeDir="false" afterPath="$PROJECT_DIR$/captcha_records.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/1ab2s_num286.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/1ezx8_num398.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/1iv22_num346.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/1kxw2_num940.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/1vuy5_num17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/3mtj9_num765.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/CMQVA_num717_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/CMQZJ_num908_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/CRGEU_num339_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/CZHBN_num989_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/CZWED_num21_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/test_data/DZPEW_num388_1.png" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/345h4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/34d5m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/35y83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/37sar.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3ayfe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3cdkf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3dftn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3dwhs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3fykj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3kx4d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3r4kr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/3sre7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/4h8fx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/4nwnd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/4xjjw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/4xk7k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/5ajyp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/5cjph.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/5dcdf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/5hjtd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/5sycs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/5sym4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/75t5d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7arnh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7ct8n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7djnc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7dwce.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7fxtk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7pada.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7sehj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7t7je.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/7y438.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/83dtc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/84mwe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/84ynm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/884ha.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8a3t3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8dank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8p4fx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8t87a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8w5st.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8wk5y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8wsn5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/8xcds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/a3f4n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/a54mp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ae87p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/an38x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/apjh8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/aw55e_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/awjde.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/cemsy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/cfesw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/cm5ws.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/cr4ww.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/cwjax.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/cxnwr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/d43ye.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/d4ehc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/d83xn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/drtcm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/dtpdx_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/dwysa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/efm7h.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/epe45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/exa3f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/execs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/f5maw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fer5t.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ff3ds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fj5af.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fjd3r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fjsfp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fs3eh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ft33m_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fw5ad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fw8an.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/fxpwr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/h55pt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/h7s4f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/h8knd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ha3re.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hchee.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hde87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hdwxx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hdy8r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hhdhj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hr8xh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/htym4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hww5m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hx73m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/hxrys.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/j45ps.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/j45wd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/j4nep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/j7pp5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/j8nnd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/js7d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/jtcma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/k383w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/k3w8s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/k7s34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/k8w37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/kcn3x.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/kd7rn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/kd8nc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/khana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/khcks.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/kj8d4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/knhxf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ktjdd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ktrwc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/kxt34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/m3xmx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/m8fae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/m8ytr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mcf3k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mdmfd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mfmy8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mhfy3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mhkwd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mn4dp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mp7as_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/mpd4e.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/msxws.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/n3ncx.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/n53m5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/n5sex.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/n73wc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ntd3d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/nxdxa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/nxe7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/p5t3r.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/pahck.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/perxn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/pfn3w.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ph4sf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/pkh7p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/pnxcr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/pydw4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/r45c8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/r585y.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/r78d5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/raswh.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rfdst.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rkfys.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rmjwj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rnjan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rpnas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rs3m5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rtsd5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rx5d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/rxyjy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ryjra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/s3jje.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/s53mt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/s7h3p.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/sa7de.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/saan4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/scftf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/scssf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/snac3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/sntrm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ssf7d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/sw3es.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/sy33m.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/t4wty.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/t7s3k.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/te5rm.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/tkrma.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/trfjj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/tteyr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/tw4dr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/tyna3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/w5xam.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/w87yk.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wctpn.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wpdae.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wrxe4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wtn5d.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wtnpf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wxem8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/wyfrc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/x4dkc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/x5n7a.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/x5x5f.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/x8fa3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/xahcf.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/xakmw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/xcstp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/xe8xe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/xecr3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/xwjwa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/y54dw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/y7fpc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/yaccd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/yadct.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ycfwc.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/ykryd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/train_data/yxapp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/valid_data/rfwjs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/valid_data/yn7ws.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/valid_data/ynkcd.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/valid_data/yspdn.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +219,8 @@
     <SUITE FILE_PATH="coverage/captcha_recognize$download_captchas.coverage" NAME="download_captchas Coverage Results" MODIFIED="1552634688675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/teilu" />
     <SUITE FILE_PATH="coverage/captcha_recognize$captcha_train.coverage" NAME="captcha_train Coverage Results" MODIFIED="1552638025829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/captcha_recognize$captcha_recognize.coverage" NAME="captcha_recognize Coverage Results" MODIFIED="1552635372769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/captcha_recognize$captcha_records.coverage" NAME="captcha_records Coverage Results" MODIFIED="1552643505116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/captcha_recognize$test.coverage" NAME="test Coverage Results" MODIFIED="1552646219888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/captcha_recognize$captcha_records.coverage" NAME="captcha_records Coverage Results" MODIFIED="1552646423323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/captcha_recognize$captcha_gen_default.coverage" NAME="captcha_gen_default Coverage Results" MODIFIED="1552635360511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -47,7 +237,7 @@
           <entry key="jpg" value="14" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
-          <entry key="py" value="21" />
+          <entry key="py" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -55,20 +245,20 @@
           <entry key="Image" value="15" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="21" />
+          <entry key="Python" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="31" />
-          <entry key="ignore" value="9" />
-          <entry key="py" value="368" />
+          <entry key="ignore" value="10" />
+          <entry key="py" value="580" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="399" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="611" />
         </counts>
       </usages-collector>
     </session>
@@ -78,8 +268,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/captcha_recognize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="74" column="54" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="54" />
+            <state relative-caret-position="121">
+              <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -99,11 +289,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/captcha_records.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1705">
-              <caret line="81" column="42" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="42" />
+            <state relative-caret-position="210">
+              <caret line="16" column="32" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="42" />
               <folding>
                 <element signature="e#0#38#0" expanded="true" />
               </folding>
@@ -111,11 +301,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.git.ignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+            <state relative-caret-position="380">
+              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -160,8 +359,8 @@
     <findStrings>
       <find>from captcha</find>
       <find>xrange</find>
-      <find>Step</find>
       <find>zip</find>
+      <find>Step</find>
     </findStrings>
     <dirStrings>
       <dir>E:\python\git\captcha_recognize</dir>
@@ -178,6 +377,7 @@
         <option value="$PROJECT_DIR$/captcha_recognize.py" />
         <option value="$PROJECT_DIR$/captcha_records.py" />
         <option value="$PROJECT_DIR$/.git.ignore" />
+        <option value="$PROJECT_DIR$/test.py" />
       </list>
     </option>
   </component>
@@ -218,6 +418,11 @@
             <path>
               <item name="captcha_recognize" type="b2602c69:ProjectViewProjectNode" />
               <item name="captcha_recognize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="captcha_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="captcha_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,17 +555,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="download_captchas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="captcha_recognize" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/teilu" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/teilu/download_captchas.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -372,17 +577,17 @@
     <list>
       <item itemvalue="Python.captcha_recognize" />
       <item itemvalue="Python.captcha_gen_default" />
-      <item itemvalue="Python.download_captchas" />
       <item itemvalue="Python.captcha_records" />
       <item itemvalue="Python.captcha_train" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.captcha_records" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.captcha_train" />
         <item itemvalue="Python.captcha_recognize" />
         <item itemvalue="Python.captcha_gen_default" />
-        <item itemvalue="Python.download_captchas" />
       </list>
     </recent_temporary>
   </component>
@@ -409,13 +614,13 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" weight="0.329718" />
-      <window_info anchor="bottom" id="Python Console" weight="0.324295" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.46420825" />
+      <window_info anchor="bottom" id="Python Console" weight="0.521692" />
+      <window_info anchor="bottom" id="Terminal" weight="0.53253794" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45770064" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.56290674" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -583,16 +788,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_recognize.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="74" column="54" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/2054063200/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -617,6 +812,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.git.ignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/captcha_train.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -627,20 +829,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/captcha_records.py">
+    <entry file="file://$PROJECT_DIR$/captcha_recognize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1705">
-          <caret line="81" column="42" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="42" />
+        <state relative-caret-position="121">
+          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.git.ignore">
+    <entry file="file://$PROJECT_DIR$/../../anaconda2/envs/tensorflow/Lib/ntpath.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+        <state relative-caret-position="-2154">
+          <caret line="74" column="26" selection-start-line="74" selection-start-column="26" selection-end-line="74" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/captcha_records.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="81" selection-start-column="33" selection-end-line="81" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
