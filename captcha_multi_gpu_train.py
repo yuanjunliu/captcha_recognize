@@ -25,7 +25,7 @@ def tower_loss(scope, keep_prob):
 
 def average_gradients(tower_grads):
   average_grads = []
-  for grad_and_vars in zip(*tower_grads):
+  for grad_and_vars in list(zip(*tower_grads)):
     grads = []
     for g, _ in grad_and_vars:
       expanded_g = tf.expand_dims(g, 0)
